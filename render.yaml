@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: n8n-moka
+    env: docker
+    region: singapore
+    plan: free
+    envVars:
+      - key: GENERIC_TIMEZONE
+        value: Asia/Jakarta
